@@ -1,6 +1,10 @@
 # Implementation of essential data structers in C++.
 
-## 1. Stack with Linked Nodes
+## 1. Stack with Linked Nodes - an linked implementation of a FILO stack
+
+The size of the stack grows and shrinks dynamically depending on the number of stored elements.
+
+The memory for the elements is allocated on the heap.
 
 ## 2. Queue with Linked Nodes
 
