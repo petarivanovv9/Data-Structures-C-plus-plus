@@ -104,5 +104,44 @@ bool LinkedStack<TYPE>::isEmpty() const {
 	return _used == 0;
 }
 
+template <typename TYPE>
+bool LinkedStack<TYPE>::push(TYPE element) {
+	Node* pNewNode;
+
+	try {
+		pNewNode = new Node(element, _pTop);
+	}
+	catch (...) {
+		return false;
+	}
+
+	_pTop = pNewNode;
+	_used++;
+
+	return true;
+}
+
+template <typename TYPE>
+bool LinkedStack<TYPE>::pop() {
+	if (_used == 0)
+		return false;
+
+	Node* pLastNode;
+	pLastNode = _pTop;
+	_pTop = _pTop->_pNext;
+	delete pLastNode;
+
+	_used--;
+
+	return true;
+}
+
+template <typename TYPE>
+TYPE LinkedStack<TYPE>::peek() const {
+	assert(_used != 0);
+
+	return _pTop->_data;
+}
+
 
 template class LinkedStack <int>;
