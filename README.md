@@ -6,7 +6,11 @@ The size of the stack grows and shrinks dynamically depending on the number of s
 
 The memory for the elements is allocated on the heap.
 
-## 2. Queue with Linked Nodes
+## 2. Queue with Linked Nodes - an linked implementation of a FIFO queue
+
+The size of the queue grows and shrinks dynamically depending on the number of stored elements.
+
+The memory for the elements is allocated on the heap.
 
 ## 3. Linked List
 
