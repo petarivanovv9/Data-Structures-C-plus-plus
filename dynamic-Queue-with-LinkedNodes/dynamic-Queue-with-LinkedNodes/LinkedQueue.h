@@ -39,6 +39,7 @@ private:
 	size_t _used;
 };
 
+
 //template <typename TYPE>
 //LinkedQueue<TYPE>::Node::Node(TYPE data, Node* pNext) {
 //	_data = data;
