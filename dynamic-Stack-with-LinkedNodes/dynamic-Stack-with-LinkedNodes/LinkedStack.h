@@ -9,7 +9,7 @@ class LinkedStack {
 	class Node {
 	public:
 		TYPE _data;
-		Node* _pNext;
+		Node<TYPE>* _pNext;
 		Node(TYPE, Node<TYPE>* = NULL);
 	};
 
