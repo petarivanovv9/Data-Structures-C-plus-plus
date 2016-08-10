@@ -39,6 +39,15 @@ int main() {
 
 	std::cout << "testLinkedStack.getSize() : " << testLinkedStack.getSize() << std::endl;
 
+	testLinkedStack.clean();
+	std::cout << "testLinkedStack.getSize() : " << testLinkedStack.getSize() << std::endl;
+	std::cout << testLinkedStack.getAllocatedSize() << std::endl;
+
+	testLinkedStack.push(5);
+	testLinkedStack.push(6);
+	std::cout << "testLinkedStack.getSize() : " << testLinkedStack.getSize() << std::endl;
+	std::cout << testLinkedStack.peek() << std::endl;
+
 
 	return 0;
 }

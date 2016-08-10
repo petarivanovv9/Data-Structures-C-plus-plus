@@ -143,5 +143,13 @@ TYPE LinkedStack<TYPE>::peek() const {
 	return _pTop->_data;
 }
 
+template <typename TYPE>
+void LinkedStack<TYPE>::clean() {
+	while (!isEmpty()) {
+		pop();
+	}
+	//init();
+}
+
 
 template class LinkedStack <int>;
