@@ -5,7 +5,7 @@
 
 
 template <typename TYPE>
-LinkedStack<TYPE>::Node::Node(TYPE data, Node* pNext) {
+LinkedStack<TYPE>::Node<TYPE>::Node(TYPE data, Node* pNext) {
 	_data = data;
 	_pNext = pNext;
 }
