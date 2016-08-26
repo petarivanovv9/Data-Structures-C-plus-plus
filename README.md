@@ -22,4 +22,4 @@ The memory for the elements is allocated on the heap.
 
 ## 7. [Trie (prefix tree)] (https://github.com/pepincho/Data-Structures-C-plus-plus/tree/master/Trie-prefix-tree)
 
-## 7. [Dynamic Array] (https://github.com/pepincho/Data-Structures-C-plus-plus/tree/master/Dynamic-Array)
+## 8. [Dynamic Array] (https://github.com/pepincho/Data-Structures-C-plus-plus/tree/master/Dynamic-Array)
